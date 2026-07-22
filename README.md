@@ -126,12 +126,6 @@ Documentação interativa: **http://127.0.0.1:8000/docs**
   4 artigos científicos** (segmentados por seção), totalizando 318 registros em
   **7 áreas** e **21 subáreas**, misturando documentação técnica, textos
   explicativos e conteúdo acadêmico real.
-- **Métrica:** F1-score macro. Resultado — **F1 ≈ 0,97 na área** e **≈ 0,85 na
-  subárea**. A subárea acerta um pouco menos por ter mais classes (21 vs 7) e
-  menos exemplos por classe, o que é esperado.
-- **Onde erra:** conteúdos de fronteira, que citam dois assuntos ao mesmo tempo.
-  A base foi construída de propósito com esses casos, para não gerar um
-  resultado artificialmente perfeito.
 
 ---
 
