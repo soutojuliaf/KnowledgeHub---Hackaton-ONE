@@ -1,4 +1,6 @@
-# Hackathon ONE Team 16 — KnowledgeHub
+# Hackathon ONE Team 16  
+
+KnowledgeHub
 
 **Organização Inteligente de Conhecimento Técnico**
 
