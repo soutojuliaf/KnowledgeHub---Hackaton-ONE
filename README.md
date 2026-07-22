@@ -10,9 +10,7 @@ Parte de **Ciência de Dados** do projeto: o modelo e a API que o back-end conso
 
 ---
 
-## O contrato (o que a API devolve)
-
-Este é o formato que o back-end e o front-end podem esperar:
+## Saída
 
 ```json
 {
