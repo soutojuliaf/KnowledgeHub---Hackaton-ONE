@@ -6,8 +6,6 @@ Solução que recebe conteúdos técnicos (título + texto) e devolve, em JSON,
 uma **classificação em dois níveis** (área principal + subárea), a **confiança**
 de cada nível, as **palavras-chave** e os **conteúdos relacionados** da base.
 
-Parte de **Ciência de Dados** do projeto: o modelo e a API que o back-end consome.
-
 ---
 
 ## Saída
@@ -122,8 +120,8 @@ Documentação interativa: **http://127.0.0.1:8000/docs**
 
 - **Dois níveis:** dois classificadores independentes (área e subárea), ambos
   **TF-IDF + Regressão Logística**.
-- **Base própria:** ~290 conteúdos sintéticos **mais 24 trechos reais extraídos de
-  4 artigos científicos** (segmentados por seção), totalizando ~318 registros em
+- **Base própria:** 290 conteúdos sintéticos **mais 24 trechos reais extraídos de
+  4 artigos científicos** (segmentados por seção), totalizando 318 registros em
   **7 áreas** e **21 subáreas**, misturando documentação técnica, textos
   explicativos e conteúdo acadêmico real.
 - **Métrica:** F1-score macro. Resultado — **F1 ≈ 0,97 na área** e **≈ 0,85 na
@@ -132,24 +130,6 @@ Documentação interativa: **http://127.0.0.1:8000/docs**
 - **Onde erra:** conteúdos de fronteira, que citam dois assuntos ao mesmo tempo.
   A base foi construída de propósito com esses casos, para não gerar um
   resultado artificialmente perfeito.
-
-### Áreas
-
-Backend · Frontend · Inteligência Artificial · Ciência de Dados ·
-Banco de Dados · DevOps e Cloud · Mobile
-
-(cada uma com 2–3 subáreas — veja `GET /taxonomia`)
-
----
-
-## Integração entre as equipes
-
-- **Data Science (esta pasta):** entrega o `.joblib` e a função `processar()`,
-  além da API que expõe o modelo em localhost.
-- **Back-end:** consome a API (ou a função, se também for Python). Recebe o JSON
-  do contrato acima e cuida do "caderno" do usuário, da confirmação e do resto.
-- A API já libera **CORS**, então o front-end consegue chamá-la direto durante o
-  desenvolvimento.
 
 ---
 
