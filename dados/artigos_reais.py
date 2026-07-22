@@ -1,5 +1,5 @@
 """
-Base de conteudos REAIS, extraidos dos 4 artigos cientificos anexados pela equipe.
+Base de conteudos, extraidos dos 4 artigos cientificos.
 
 Cada artigo foi segmentado em varios trechos (por secao/topico), e cada trecho
 recebeu uma area e subarea coerentes com a taxonomia do KnowledgeHub. Isso transforma
