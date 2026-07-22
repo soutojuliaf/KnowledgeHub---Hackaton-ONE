@@ -1,4 +1,4 @@
-### Exemplo 1 — o exemplo do plano da equipe (linguagem natural)
+### Exemplo 1 
 POST http://127.0.0.1:8000/conteudo
 Content-Type: application/json
 
