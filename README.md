@@ -122,16 +122,16 @@ Documentação interativa: **http://127.0.0.1:8000/docs**
 
 - **Dois níveis:** dois classificadores independentes (área e subárea), ambos
   **TF-IDF + Regressão Logística**.
-- **Base própria:** 290 conteúdos sintéticos **mais 24 trechos reais extraídos de
-  4 artigos científicos** (segmentados por seção), totalizando 318 registros em
-  **7 áreas** e **21 subáreas**, misturando documentação técnica, textos
+- **Base própria:** 290 conteúdos sintéticos mais 24 trechos extraídos de
+  4 artigos científicos (segmentados por seção), totalizando 318 registros em
+  7 áreas e 21 subáreas, misturando documentação técnica, textos
   explicativos e conteúdo acadêmico real.
 
 ---
 
 ## Integração com OCI
 
-Serviço: **OCI Object Storage**, para armazenar o modelo serializado.
+Serviço: OCI Object Storage, para armazenar o modelo serializado.
 O modelo é treinado localmente, enviado ao bucket com
 `python oci_storage.py enviar`, e a aplicação baixa dele ao iniciar.
 
