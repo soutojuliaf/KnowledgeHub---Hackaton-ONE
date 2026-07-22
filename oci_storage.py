@@ -1,5 +1,5 @@
 """
-Integracao com OCI Object Storage — requisito obrigatorio do desafio.
+Integracao com OCI Object Storage
 
 O que este script faz:
   - enviar (upload) o modelo treinado para um bucket na OCI;
@@ -74,7 +74,7 @@ def baixar():
     print(f"Baixado para: {CAMINHO_LOCAL}")
 
 def listar():
-    """Lista os objetos do bucket — util para conferir se o upload funcionou."""
+    """Lista os objetos do bucket para conferir se o upload funcionou."""
     cliente, namespace = _cliente()
     resposta = cliente.list_objects(namespace, NOME_BUCKET)
     if not resposta.data.objects:
