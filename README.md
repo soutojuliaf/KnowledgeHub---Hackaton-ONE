@@ -5,8 +5,8 @@ KnowledgeHub
 **Organização Inteligente de Conhecimento Técnico**
 
 Solução que recebe conteúdos técnicos (título + texto) e devolve, em JSON,
-uma **classificação em dois níveis** (área principal + subárea), a **confiança**
-de cada nível, as **palavras-chave** e os **conteúdos relacionados** da base.
+uma classificação em dois níveis (área principal e subárea), a confiança
+de cada nível, as palavras-chave e os conteúdos relacionados da base.
 
 ---
 
